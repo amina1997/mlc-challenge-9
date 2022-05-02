@@ -1,1 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>my translation machine</h1>
 
+    <form method="POST" action="{{ url_for('home') }}">
+      <label for="fname">english sntence</label><br />
+      <input type="text" id="fname" name="fname" /><br /><br />
+
+      <input type="submit" value="translate" />
+    </form>
+
+    <h1>{{fname}}</h1>
+  </body>
+</html>
