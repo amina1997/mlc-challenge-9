@@ -1,0 +1,7 @@
+tensorflow
+Flask
+Flask-Reuploaded
+Keras
+Keras-Preprocessing
+regex
+numpy
